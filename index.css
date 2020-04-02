@@ -1,0 +1,35 @@
+body{
+    background-color: #25304A;
+    margin: 0;
+}
+.logo{
+    padding: 20px;
+    border: 1px dashed #bcbcbc;
+}
+.list{
+     border-right: 1px dashed #bcbcbc;
+     border-left: 1px dashed #bcbcbc;
+     border-bottom: 1px dashed #bcbcbc;
+}
+h2{
+    text-align: center;
+    color: #9ac6c9;
+    margin: 0;
+}
+ul{
+    text-align: center;
+}
+li{
+    margin: 20px;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: #9ac6c9;
+}
+a:hover{
+    color: thistle;
+}
+.text{
+    color: #9ac6c9;
+}
