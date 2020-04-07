@@ -43,3 +43,9 @@ button{
 .showing{
     display: block;
 }
+.money{
+    background-color: #9ac6c9;
+}
+.none{
+    display: none;
+}
