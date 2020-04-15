@@ -1,0 +1,71 @@
+body{
+    background-color:#FFCC66;
+    margin: 0;
+    position: relative;
+}
+.kindsOfCoffee{
+    display: grid;
+    grid-template-columns: 15fr 18fr 5fr 5fr;
+}
+.kindOfCoffeeName{
+    font-size:35px;
+    line-height: 70px;
+}
+.kindOfCoffeeEng{
+    text-align: center;
+    line-height: 87px;
+    margin-bottom: 0;
+}
+.kindOfHot{
+    color: red;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.kindOfIced{
+    color: blue;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.oz{
+    font-size: 12px;
+}
+.coffee{
+    display: grid;
+    grid-template-columns: 15fr 18fr 5fr 5fr;
+}
+.coffeeOfName{
+    
+}
+.coffeeOfEng{
+    text-align: left;
+}
+.coffeeOfHot{
+    text-align: center;
+    color: red;
+}
+.coffeeOfIced{
+    text-align: center;
+    color: blue;
+}
+p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+#t1{
+    font-size: 13px;
+}
+#t2{
+    font-size: 14px;
+}
+.kindsOfCoffeeIced{
+    display: grid;
+    grid-template-columns: 15fr 18fr 5fr;
+}
+.coffeeIced{
+    display: grid;
+    grid-template-columns: 15fr 18fr 5fr;
+}
