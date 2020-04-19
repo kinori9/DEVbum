@@ -69,3 +69,28 @@ p{
     display: grid;
     grid-template-columns: 15fr 18fr 5fr;
 }
+h1{
+    text-align: center;
+}
+.red{
+    color: red;
+}
+.workTime{
+    text-align: center;
+}
+.tel{
+    text-align: center;
+    color: red;
+}
+a{
+    text-decoration: white;
+}
+h3{
+    margin: 0;
+}
+h2{
+    margin-top: 0;
+}
+.coupon{
+    color: grey;
+}
