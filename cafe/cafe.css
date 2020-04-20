@@ -120,6 +120,10 @@ li{
 .nav{
     color: white;
 }
+.black{
+    display: inline;
+    color: black;
+}
 @keyframes fadein {
     from {
         opacity:0;
