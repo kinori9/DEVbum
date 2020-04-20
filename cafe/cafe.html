@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>카페배우세상</title>
 </head>
-<link rel="shortcut icon" type="image/png" href="logo.png">
+<link rel="shortcut icon" type="image/png" href="logo/logo.png">
 <link rel="stylesheet" href="cafe.css">
 <body>
+    <img class="main_logo" src="logo/main_logo.png" style="width: 100%;">
     <header>
-        <h1><span class="red">Cafe</span> 배우세상</h1>
         <h3>
             <div class="workTime">평일(일-금) 오전9시~밤12시</div>
         </h3>
@@ -19,7 +19,17 @@
                 <a class="tel" href="tel:02-2234-9998">02-2234-9998</a><a class="tel" href="tel:02-2234-9978">/9978</a>
             </h2>
         </div>
-        <div class="coupon"><a href="">쿠폰 사용 안내 ></a></div>
+        <ul>
+            <li><div class="coupon"><a class="nav" href="#" onclick="">쿠폰 사용 안내</a></div></li>
+            <li><div class="event"><a class="nav" href="event.html" target="_blank">Event</a></div></li>
+            <li><div class="map"><a class="nav" href="https://map.kakao.com/link/map/카페배우세상,37.565981, 127.015526" target="_blank">오시는 길</a></div></li>
+        </ul>
+        <div class="couponEX">
+            <img src="couponEx.png"style="width: 100%;">
+            <p><div class="red">쿠폰 도장 </div><div class="blue">7</div><div class="red">개</div> 받으시면 커피 1잔 무료</p>
+            <p><div class="red">쿠폰 도장 </div><div class="blue">14</div><div class="red">개</div> 받으시면 모든음료 1잔 무료</p>
+            <p>*1샷, 시럽, 꿀추가 무료 / <u>1KG음료,스무디제외</u> </p>
+        </div>
     </header>
     <div class="articlce">
         <div class="coffeePage">
@@ -362,3 +372,4 @@
 <img src="coffee.png" alt="" style="height:60px; width:40px; position: fixed; bottom: 10px; right: 10px; z-index: -1;">
 </body>
 </html>
+<script src="couponEX.js"></script>

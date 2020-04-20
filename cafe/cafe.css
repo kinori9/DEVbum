@@ -1,3 +1,6 @@
+html{
+    animation: fadein 5s;
+}
 body{
     background-color:#FFCC66;
     margin: 0;
@@ -73,7 +76,12 @@ h1{
     text-align: center;
 }
 .red{
+    display: inline;
     color: red;
+}
+.blue{
+    display: inline;
+    color: blue;
 }
 .workTime{
     text-align: center;
@@ -91,6 +99,56 @@ h3{
 h2{
     margin-top: 0;
 }
-.coupon{
-    color: grey;
+ul{
+    color: wheat;
+    text-align: center;
+    padding: 0;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+    color: royalblue;
+}
+.couponEX{
+    display: none;
+    animation: fadeout 2s;
+}
+.showing{
+    display: block;
+    animation: fadein 2s;
+}
+.nav{
+    color: white;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@keyframes fadeout {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.main_logo{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    from {
+        margin-left: 100%;
+        width: 300%
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    
 }
